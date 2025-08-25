@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- tailwind cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- daisy cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+
+</div>
+<body class="flex  flex-col justify-center items-center h-[100vh] bg-gray-300 " >
+<div class="h-[150px] w-[400px] flex justify-center items-center bg-[url(./assets/bg.png)] bg-cover">
+
+   
+    <img  src="/assets/Group.png" alt="" srcset="">
+
+
+</div>
+
+    <form class=" w-[400px]  bg-white rounded-3xl p-5">
+        <div>
+        <label  class="text-lg pb-5 for font-semibold "for=""> enter your mobile number</label>
+        
+        <input id="mobile-number" type="text"   placeholder = " enter your mobile number" class="input rounded-2xl mt-3  w-full bg-gray-300"  />
+        </div>
+        <div class="mt-5">
+        <label class="font-semibold " for="">4 digit pin</label>
+        <br>
+        <input id="pin-number" type ="text" placeholder="enter your pin" class="input rounded-2xl mt-3  w-full bg-gray-300" />
+        <br>
+        </div>
+            <button id="btn-primary" class="btn btn-secondary w-full mt-3 bg-blue-700">log in</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
